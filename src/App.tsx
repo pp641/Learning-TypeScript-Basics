@@ -4,6 +4,7 @@ import LearningBasics from './todo';
 import Person from './Person';
 import PersonList from './PersonList';
 import Status from './Status';
+import CSSProps from './CSSProps';
 
 const Namelist = [ 
   {firstName : "hello" , lastName : "demo"} , 
@@ -19,6 +20,7 @@ function App() {
       <Person name={{firstName : "hello" , lastName : "There"}} />
       <PersonList names={Namelist} />
       <Status status='loading' />
+      <CSSProps styles={{border : "1px solid black" , backgroundColor : "green"}} />
      </div>
   );
 }

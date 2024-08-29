@@ -16,4 +16,4 @@ const LearningBasics = (props : GreetingName) => {
   )
 }
 
-export default LearningBasics
+export default LearningBasics;
